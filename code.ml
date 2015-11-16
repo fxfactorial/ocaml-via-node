@@ -19,8 +19,9 @@ let () =
 	 ignore (Child_process.exec_sync query_target);
        with _ ->
 	 let msg = "Finished, now you have ocaml, ocamlc, \
-		    ocamlopt and opam installed on your machine" in
-
+		    ocamlopt and opam installed on your machine." in
+	 
 	 colorize ~msg ~styles:[Cyan] []
 	 |> print_endline);
-     ignore (Child_process.exec_sync "eval `opam config env`")
+     colorize ~msg:"now do: eval `opam config env`" ~styles:[Cyan] []
+     |> print_endline
