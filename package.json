@@ -1,0 +1,26 @@
+{
+    "name": "install_ocaml",
+    "version": "1.0.0",
+    "description": "Install OCaml and opam on your system",
+    "main": "ocaml.js",
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Edgar Aroutiounian <edgar@beancode.io> (http://hyegar.com)",
+    "license": "GPL-3.0",
+    "keywords":["ocaml", "js_of_ocaml", "opam"],
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/fxfactorial/ocaml-via-node"
+    },
+    "bugs": {
+	"url": "https://github.com/fxfactorial/ocaml-via-node/issues"
+    },
+    "dependencies": {
+	"colors":"^1.1.2"
+    },
+    "preferGlobal": true,
+    "bin": {
+	"install_ocaml":"ocaml.js"
+    }
+}
