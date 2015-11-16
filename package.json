@@ -7,7 +7,7 @@
 	"test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Edgar Aroutiounian <edgar@beancode.io> (http://hyegar.com)",
-    "license": "GPL-3.0",
+    "license": "BSD-3",
     "keywords":["ocaml", "js_of_ocaml", "opam"],
     "repository": {
 	"type": "git",
